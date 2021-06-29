@@ -21,5 +21,5 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/term v0.0.0-20201210144234-2321bbc49cbf
 	google.golang.org/genproto v0.0.0-20210323160006-e668133fea6a
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/protobuf v1.27.1
 )
