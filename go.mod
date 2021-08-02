@@ -10,7 +10,7 @@ require (
 	github.com/go-openapi/swag v0.19.15
 	github.com/go-piv/piv-go v1.8.0
 	github.com/google/go-cmp v0.5.6
-	github.com/google/go-containerregistry v0.5.1
+	github.com/google/go-containerregistry v0.6.0
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/trillian v1.3.14-0.20210713114448-df474653733c
 	github.com/hashicorp/vault/api v1.1.1 // indirect
