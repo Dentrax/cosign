@@ -5,7 +5,7 @@ go 1.16
 require (
 	github.com/cenkalti/backoff/v3 v3.2.2 // indirect
 	github.com/cyberphone/json-canonicalization v0.0.0-20210303052042-6bc126869bf4
-	github.com/go-openapi/runtime v0.19.29
+	github.com/go-openapi/runtime v0.19.31
 	github.com/go-openapi/strfmt v0.20.1
 	github.com/go-openapi/swag v0.19.15
 	github.com/go-piv/piv-go v1.8.0
