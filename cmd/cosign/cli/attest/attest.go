@@ -88,6 +88,7 @@ func AttestCmd(ctx context.Context, ko sign.KeyOpts, regOpts options.RegistryOpt
 	defer sv.Close()
 	wrapped := dsse.WrapSigner(sv, predicateURI)
 	dd := cremote.NewDupeDetector(sv)
+	ro := cremote.NewReplaceOp(predicateURI, true) // TODO: --replace
 
 	fmt.Fprintln(os.Stderr, "Using payload from:", predicatePath)
 	predicate, err := os.Open(predicatePath)
@@ -149,7 +150,7 @@ func AttestCmd(ctx context.Context, ko sign.KeyOpts, regOpts options.RegistryOpt
 	}
 
 	// Attach the attestation to the entity.
-	newSE, err := mutate.AttachAttestationToEntity(se, sig, mutate.WithDupeDetector(dd))
+	newSE, err := mutate.AttachAttestationToEntity(se, sig, mutate.WithDupeDetector(dd), mutate.WithReplaceOp(ro))
 	if err != nil {
 		return err
 	}

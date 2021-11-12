@@ -211,6 +211,13 @@ func (si *signedImage) Attestations() (oci.Signatures, error) {
 			return base, nil
 		}
 	}
+	if si.so.ro != nil {
+		if replace, err := si.so.ro.Replace(base, si.att); err != nil {
+			return nil, err
+		}else {
+			return replace, nil
+		}
+	}
 	return AppendSignatures(base, si.att)
 }
 
@@ -279,6 +286,13 @@ func (sii *signedImageIndex) Attestations() (oci.Signatures, error) {
 		} else if existing != nil {
 			// Just return base if the signature is redundant
 			return base, nil
+		}
+	}
+	if sii.so.ro != nil {
+		if replace, err := sii.so.ro.Replace(base, sii.att); err != nil {
+			return nil, err
+		}else {
+			return replace, nil
 		}
 	}
 	return AppendSignatures(base, sii.att)
