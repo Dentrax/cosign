@@ -22,7 +22,7 @@ require (
 	github.com/miekg/pkcs11 v1.0.3
 	github.com/open-policy-agent/opa v0.34.2
 	github.com/pkg/errors v0.9.1
-	github.com/secure-systems-lab/go-securesystemslib v0.1.0
+	github.com/secure-systems-lab/go-securesystemslib v0.3.1
 	github.com/sigstore/fulcio v0.1.2-0.20210831152525-42f7422734bb
 	github.com/sigstore/rekor v0.3.1-0.20211119021052-57b3fef494e0
 	github.com/sigstore/sigstore v1.0.2-0.20211115214857-534e133ebf9d
