@@ -26,7 +26,7 @@ require (
 	github.com/sigstore/fulcio v0.1.2-0.20210831152525-42f7422734bb
 	github.com/sigstore/rekor v0.3.1-0.20211119021052-57b3fef494e0
 	github.com/sigstore/sigstore v1.0.2-0.20211115214857-534e133ebf9d
-	github.com/spf13/cobra v1.2.1
+	github.com/spf13/cobra v1.5.0
 	github.com/spf13/viper v1.9.0
 	github.com/stretchr/testify v1.7.0
 	github.com/tent/canonical-json-go v0.0.0-20130607151641-96e4ba3a7613
