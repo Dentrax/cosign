@@ -12,7 +12,7 @@ require (
 	github.com/go-openapi/swag v0.19.15
 	github.com/go-piv/piv-go v1.9.0
 	github.com/google/certificate-transparency-go v1.1.2
-	github.com/google/go-cmp v0.5.6
+	github.com/google/go-cmp v0.5.8
 	github.com/google/go-containerregistry v0.7.1-0.20211118220127-abdc633f8305
 	github.com/google/go-containerregistry/pkg/authn/k8schain v0.0.0-20211118220127-abdc633f8305
 	github.com/google/go-github/v39 v39.2.0
@@ -28,12 +28,12 @@ require (
 	github.com/sigstore/sigstore v1.0.2-0.20211115214857-534e133ebf9d
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/viper v1.9.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	github.com/tent/canonical-json-go v0.0.0-20130607151641-96e4ba3a7613
 	github.com/theupdateframework/go-tuf v0.0.0-20211006142131-1dc15a86c64d
-	github.com/xanzy/go-gitlab v0.52.0
-	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
+	github.com/xanzy/go-gitlab v0.78.0
+	golang.org/x/oauth2 v0.3.0
+	golang.org/x/term v0.3.0
 	google.golang.org/api v0.60.0
 	k8s.io/api v0.21.7
 	k8s.io/apimachinery v0.21.7
@@ -46,8 +46,6 @@ require (
 	github.com/envoyproxy/protoc-gen-validate v0.6.2 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/form3tech-oss/jwt-go v3.2.5+incompatible // indirect
-	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
-	github.com/hashicorp/go-retryablehttp v0.7.0 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/urfave/cli v1.22.5 // indirect
